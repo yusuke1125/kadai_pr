@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "ms-ceintl.vscode-language-pack-ja",
+        "ms-vscode.cpptools",
+        "jbenden.c-cpp-flylint",
+    ]
+}
