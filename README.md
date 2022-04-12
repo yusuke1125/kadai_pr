@@ -39,7 +39,4 @@ docker-compose exec mygcc gprof -b main_gprof gmon.out
 ```bash
 docker-compose ps
 docker-compose down
-docker-compose down --rmi all --volumes --remove-orphans
 ```
-
-
