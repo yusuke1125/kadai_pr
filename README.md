@@ -37,6 +37,6 @@ docker-compose exec mygcc gprof -b main_gprof gmon.out
 停止
 
 ```bash
-docker-compose ps
+docker-compose stop
 docker-compose down
 ```
