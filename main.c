@@ -20,6 +20,8 @@ int main(void)
 
     f = d%3;
 
+    g = e +1;
+
 
     printf("e=%d\n", e);
     printf("f=%d\n", f);
