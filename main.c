@@ -8,7 +8,7 @@ int myfunc(int n)
 int main(void)
 {
     int a[5] = {1, 2, 3, 4, 5};
-    int b, c, d, e, f, g;
+    int b, c, d, e, f, g, h;
 
     c = a[1] + a[3];
 
@@ -21,6 +21,8 @@ int main(void)
     f = d%3;
 
     g = e+3;
+
+    h = b*b;
 
 
     printf("e=%d\n", e);
