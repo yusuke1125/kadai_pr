@@ -1,25 +1,31 @@
 #include <stdio.h>
 
-int myfunc(int x, int y)
+int myfunc(int n)
 {
-    int z;
-
-    z = 2 * x - y;
-    return z;
+    return n * n * n + 2 * n;
 }
 
 int main(void)
 {
     int a[5] = {1, 2, 3, 4, 5};
-    int b, c;
+    int b, c, d, e, f, g;
 
-    c = a[1] + a[5];
+    c = a[1] + a[3];
 
-    b = c + a[1];
+    b = c + a[2];
 
-    b = myfunc(b, c);
+    d = myfunc(b);
 
-    printf("b=%d\n", b);
+    e = d/3;
+
+    f = d%3;
+
+    g = e+3;
+
+
+    printf("e=%d\n", e);
+    printf("f=%d\n", f);
 
     return 0;
 }
+
