@@ -20,10 +20,6 @@ int main(void)
 
     f = d%3;
 
-    g = e+3;
-
-    h = b*b;
-
 
     printf("e=%d\n", e);
     printf("f=%d\n", f);
